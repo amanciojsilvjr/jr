@@ -29,7 +29,7 @@ Locates a object by name and type, without triggering its creation or configurat
 TaskProvider<T> named(String name, Action<? super T> configurationAction)
 Locates a object by name, without triggering its creation or configuration, failing if there is no such object. The given configure action is executed against the object before it is returned from the provider
 # For more details on how to configure your build environment visit
-# http://www.gradle.org/docs/current/amanciojsilvjr-userguide/build_environment.html/
+# http://gradle.org/docs/current/userguide/build_environment.html/bitcoin
 
 # Specifies the JVM arguments used for the daemon process.
 # The setting is particularly useful for tweaking memory settings.
