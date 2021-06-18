@@ -8,6 +8,26 @@
 # Gradle settings configured through the IDE *will override*
 # any settings specified in this file.
 
+T getByName(String name)
+Locates an object by name, failing if there is no such object.
+
+T getByName(String name, Closure configureClosure)
+Locates an object by name, failing if there is no such object. The given configure closure is executed against the object before it is returned from this method. The object is passed to the closure as its delegate.
+
+T getByName(String name, Action<? super T> configureAction)
+Locates an object by name, failing if there is no such object. The given configure action is executed against the object before it is returned from this method.
+
+TaskProvider<T> named(String name)
+Locates a task by name, without triggering its creation or configuration, failing if there is no such object.
+
+TaskProvider<S> named(String name, Class<S> type)
+Locates a object by name and type, without triggering its creation or configuration, failing if there is no such object.
+
+TaskProvider<S> named(String name, Class<S> type, Action<? super S> configurationAction)
+Locates a object by name and type, without triggering its creation or configuration, failing if there is no such object. The given configure action is executed against the object before it is returned from the provider.
+
+TaskProvider<T> named(String name, Action<? super T> configurationAction)
+Locates a object by name, without triggering its creation or configuration, failing if there is no such object. The given configure action is executed against the object before it is returned from the provider
 # For more details on how to configure your build environment visit
 # http://www.gradle.org/docs/current/userguide/build_environment.html
 
