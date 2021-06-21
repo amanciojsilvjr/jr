@@ -1,5 +1,6 @@
-# jr
-2020 Game😂
+- name: Setup Go environment
+  uses: actions/setup-go@v2.1.3
+
 
 21 lines (16 sloc)  910 Bytes
 # Project-wide Gradle settings.
