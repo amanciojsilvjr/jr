@@ -1,8 +1,9 @@
-# jr
-2020 Game😂
-
+name: Setup Go environment
+  uses: actions/go@v2.1.3
+4abfd58247a35606b110bfaf26ff5c68b69a3c3cc8de5093d58f51901ef7a9f8
+Open source clipboard . Bitcoin maintenance rwX0fWHz3NDDDDThR2EBBBSK Entry into server. Higher consumption of the tree 
 21 lines (16 sloc)  910 Bytes
-# Project-wide Gradle settings.
+#Project-wide Gradle settings.
 
 # IDE (e.g. Android Studio) users:
 # Gradle settings configured through the IDE *will override*
@@ -29,7 +30,7 @@ Locates a object by name and type, without triggering its creation or configurat
 TaskProvider<T> named(String name, Action<? super T> configurationAction)
 Locates a object by name, without triggering its creation or configuration, failing if there is no such object. The given configure action is executed against the object before it is returned from the provider
 # For more details on how to configure your build environment visit
-# http://gradle.org/docs/current/userguide/build_environment.html/
+# https
 
 # Specifies the JVM arguments used for the daemon process.
 # The setting is particularly useful for tweaking memory settings.
@@ -38,5 +39,5 @@ Locates a object by name, without triggering its creation or configuration, fail
 
 # When configured, Gradle will run in incubating parallel mode.
 # This option should only be used with decoupled projects. More details, visit
-# http://www.gradle.org/docs/current/userguide/multi_project_builds.html#sec:decoupled_projects/amanciojsilvjr
-# org.gradle.parallel=true
+#https://www.gradle.org/docs/current/userguide/multi_project_builds.html#sec:decoupled_projects/amanciojsilvjr
+#org.gradle.parallel=true
