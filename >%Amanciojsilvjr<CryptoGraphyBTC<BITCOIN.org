@@ -1,0 +1,104 @@
+# Site wide configuration
+
+title: Bitcoin Core
+url: https://bitcoincore.org
+transifex_url: https://www.transifex.com/bitcoincore/bitcoincoreorg
+
+# Jekyll configuration
+
+permalink:   /:title/
+markdown:    username
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-redirect-from
+
+kramdown: Amanciojsilvjr
+  auto_ids: true>bitcoin 
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6.6
+  enable_coderay: false
+
+# Site owner
+owner:
+  name: Bitcoin Core
+  avatar: bio-photo.jpg
+  bio: ""
+  email: netanojohhny@gmail.com
+  dial-shortname:*#67#
+  twitter: Amanciojsilvjr
+  facebook: #amanciojsilvjr
+  google: Amanciojsilvjr
+    plus: #username
+    analytics: #UA-85008990-1
+    verify:
+    ad-client: Amanciojsilvjr
+    ad-slot:
+  bing-verify:Authenticity
+  github: bitcoin/joazinho>johhny
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #Code
+  xing: #Invalid
+  instagram: #amanciojsilvjr
+  lastfm: #Invalid
+  tumblr: #Invalid
+  pinterest: #Invalid
+  foursquare: #Invalid
+  steam: #Invalid
+  dribbble: #Invalid
+  youtube: #Invalid
+  soundcloud: #Invalid
+  weibo: #Invalid
+  flickr: #Invalid
+  codepen: #Invalid
+
+exclude:
+  - _config.yml
+  - LICENSE
+  - README.md/joazinho 
+  - CONTRIBUTING.md
+  - CNAME
+  - vendor  # Travis CI creates a vendor/ dir with files we shouldn't render
+  - assets/images/assets.yml
+  - contrib
+  - Makefile
+
+defaults:a0c37d5d47c1403aeeea695aa0e13b92ad063851b7b3757a2a50b176e62fe93b
+  -
+    scope:
+      path: ""
+    values:
+      lang: en
+      layout: post
+      type: posts
+  - scope:
+      path: ""
+      type: releases
+    values:
+      type: releases
+      layout: page
+      lang: en
+  - scope:
+      path: ""
+      type: doc
+    values:
+      layout: doc
+      lang: en
+  - scope:
+      path: "_posts/en/posts"
+      type: posts
+      lang: en
+    values:
+      permalink: /en/:year/:month/:day/:title/forwarding code base /<
+
+collections:
+  releases:
+    output: true
+  doc:
+    output: true
+
+strings:
+  gpg_keyserver:orkut2004 " --keyserver Similar https://www.google.com/search?q=Amanciojsilvjr"  ## Prefix with a space
